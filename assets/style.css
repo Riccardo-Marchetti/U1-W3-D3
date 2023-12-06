@@ -1,13 +1,48 @@
 body {
   text-align: center;
+  background-color: rgb(10, 209, 176);
 }
 #listatask {
-  border: 1px solid gray;
-  padding-right: 40px;
-  margin-top: 20px;
-  display: inline-block;
+  color: rgb(233, 233, 233);
+  width: 200px;
+  text-align: left;
 }
 li {
+  text-align: left;
   list-style-type: none;
-  text-align: center;
+}
+h1 {
+  color: rgb(129, 1, 1);
+  font-size: 50px;
+  margin-top: 10px;
+}
+.p {
+  width: 400px;
+  margin: 50px auto;
+  background: #222;
+  padding: 25px;
+  margin-bottom: 0px;
+  border-radius: 20px;
+  margin-top: 80px;
+  padding-bottom: 30px;
+}
+input {
+  width: 300px;
+  height: 30px;
+  border-radius: 10px;
+}
+button {
+  height: 35px;
+  width: 80px;
+  background-color: rgb(192, 16, 16);
+  font-weight: 700;
+  border-radius: 10px;
+}
+i {
+  padding-right: 20px;
+  text-align: left;
+}
+ul {
+  padding-left: 20px;
+  padding-top: 5px;
 }

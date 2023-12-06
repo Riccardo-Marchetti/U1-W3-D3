@@ -10,11 +10,15 @@ pageForm.addEventListener("submit", function (e) {
   const tasklist = document.createElement("ul");
 
   tasklist.innerHTML = `
-        <li>${taskInputField.value}</li>
+        <li><i class="fas fa-circle"></i>  ${taskInputField.value}  </li>
         `;
   const tasklists = document.getElementById("listatask");
   tasklist.addEventListener("click", function (e) {
-    e.target.style.textDecorationLine = "line-through";
+    if (e.target.style.textDecorationLine !== "line-through") {
+      e.target.style.textDecorationLine = "line-through";
+    } else {
+      e.target.style.textDecorationLine = "none";
+    }
   });
 
   tasklists.appendChild(tasklist);

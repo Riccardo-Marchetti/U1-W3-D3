@@ -3,7 +3,6 @@ const pageForm = document.getElementById("main-form");
 pageForm.addEventListener("submit", function (e) {
   e.preventDefault();
 
-  console.log("Comincio a recuperare i dati del form");
   const taskInputField = document.getElementById("task");
 
   console.log(taskInputField.value);

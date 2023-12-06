@@ -1,6 +1,6 @@
 body {
   text-align: center;
-  background-color: rgb(10, 209, 176);
+  background-color: #0f101c;
 }
 #listatask {
   color: rgb(233, 233, 233);
@@ -19,7 +19,7 @@ h1 {
 .p {
   width: 400px;
   margin: 50px auto;
-  background: #222;
+  background: #17192b;
   padding: 25px;
   margin-bottom: 0px;
   border-radius: 20px;

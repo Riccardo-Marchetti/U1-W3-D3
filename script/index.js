@@ -1,14 +1,10 @@
 const pageForm = document.getElementById("main-form");
 
-// ora dobbiamo interagire con la sua operazione di invio, che in inglese viene chiamata "submit"
 pageForm.addEventListener("submit", function (e) {
   e.preventDefault();
 
-  // ad esempio, recuperare i valori del form!
   console.log("Comincio a recuperare i dati del form");
-
-  // per recuperare il valore dei campi input, prima di tutto seleziono dal form i campi input:
-  const taskInputField = document.getElementById("task"); // riferimento all'input del nome
+  const taskInputField = document.getElementById("task");
 
   console.log(taskInputField.value);
 

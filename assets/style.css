@@ -1,12 +1,12 @@
 body {
   text-align: center;
 }
-/* #listatask {
+#listatask {
   border: 1px solid gray;
   padding-right: 40px;
   margin-top: 20px;
   display: inline-block;
-} */
+}
 li {
   list-style-type: none;
   text-align: center;
